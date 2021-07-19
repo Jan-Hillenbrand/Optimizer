@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "app_name": "optimizer-app",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "SHOPIFY_API_KEY": "ec19598322ccc4818fdcec6ff5241e58",
+        "SHOPIFY_API_SECRET": "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",
+        "AWS_API_BASE_URL": "YOUR APP AWS BASE URL"
+      }
+    }
+  }
+}
