@@ -35,7 +35,7 @@ def index():
     api_key = os.getenv('SHOPIFY_API_KEY')
     base_url = os.getenv('AWS_API_BASE_URL')
     scopes = "read_orders,read_customers"
-    redirect_uri = f"https://{base_url}/api/confirm/install"
+    redirect_uri = f"{base_url}confirm/install"
     nonce = time.time()
 
     #
